@@ -1,0 +1,123 @@
+import image1 from "../assets/images/1.png";
+import image2 from "../assets/images/2.png";
+import image3 from "../assets/images/3.png";
+import image4 from "../assets/images/4.png";
+import image5 from "../assets/images/5.png";
+import image6 from "../assets/images/6.png";
+import image7 from "../assets/images/7.png";
+import image8 from "../assets/images/8.png";
+import image9 from "../assets/images/9.png";
+import image10 from "../assets/images/10.png";
+
+export const books = [
+  {
+    id: 1,
+    author: "Chinua Achebe",
+    country: "Nigeria",
+    image: image1,
+    language: "English",
+    link: "https://en.wikipedia.org/wiki/Things_Fall_Apart",
+    pages: 209,
+    title: "Things Fall Apart",
+    year: 1958,
+  },
+  {
+    id: 2,
+    author: "Hans Christian Andersen",
+    country: "Denmark",
+    image: image2,
+    language: "Danish",
+    link: "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.",
+    pages: 784,
+    title: "Fairy tales",
+    year: 1836,
+  },
+  {
+    id: 3,
+    author: "Dante Alighieri",
+    country: "Italy",
+    image: image3,
+    language: "Italian",
+    link: "https://en.wikipedia.org/wiki/Divine_Comedy",
+    pages: 928,
+    title: "The Divine Comedy",
+    year: 1315,
+  },
+  {
+    id: 4,
+    author: "Maureen Gallery Kovacs",
+    country: "Sumer and Akkadian Empire",
+    image: image4,
+    language: "Akkadian",
+    link: "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh",
+    pages: 160,
+    title: "The Epic Of Gilgamesh",
+    year: -1700,
+  },
+  {
+    id: 5,
+    author: "Graham Ricardo",
+    country: "Achaemenid Empire",
+    image: image5,
+    language: "Hebrew",
+    link: "https://en.wikipedia.org/wiki/Book_of_Job",
+    pages: 176,
+    title: "The Book Of Job",
+    year: -600,
+  },
+  {
+    id: 6,
+    author: "Hanan Al-Shaykh",
+    country: "India/Iran/Iraq/Egypt/Tajikistan",
+    image: image6,
+    language: "Arabic",
+    link: "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights",
+    pages: 288,
+    title: "One Thousand and One Nights",
+    year: 1200,
+  },
+  {
+    id: 7,
+    author: "Robert Cook",
+    country: "Iceland",
+    image: image7,
+    language: "English",
+    link: "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga",
+    pages: 384,
+    title: "Njál's Saga",
+    year: 1350,
+  },
+  {
+    id: 8,
+    author: "Jane Austen",
+    country: "United Kingdom",
+    image: image8,
+    language: "English",
+    link: "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+    pages: 226,
+    title: "Pride and Prejudice",
+    year: 1813,
+  },
+  {
+    id: 9,
+    author: "Honoré de Balzac",
+    country: "France",
+    image: image9,
+    language: "French",
+    link: "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot",
+    pages: 443,
+    title: "Le Père Goriot",
+    year: 1835,
+  },
+  {
+    id: 10,
+    author: "Samuel Beckett",
+    country: "Republic of Ireland",
+    image: image10,
+    language: "French",
+    link: "https://en.wikipedia.org/wiki/Molloy_(novel)",
+    pages: 256,
+    title: "Molloy, Malone Die",
+    year: 1952,
+  },
+];
